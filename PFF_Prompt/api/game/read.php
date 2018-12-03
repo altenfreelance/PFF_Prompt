@@ -29,8 +29,8 @@ $num = $stmt->rowCount();
 if($num>0){
  
     // products array
-    $games_arr=array();
-    $games_arr["stats"]=array();
+  $games_arr = [];
+  $games_arr["stats"] = [];
  
     // retrieve our table contents
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
