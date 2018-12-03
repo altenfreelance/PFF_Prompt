@@ -75,5 +75,4 @@ else{
         array("message" => "No statistics found.")
     );
 }
-
-?>
+

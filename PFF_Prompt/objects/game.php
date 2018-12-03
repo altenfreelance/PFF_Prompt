@@ -59,5 +59,3 @@ class Game{
     return $stmt;
     }
 
-}
-?>
