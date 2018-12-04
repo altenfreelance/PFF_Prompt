@@ -1,7 +1,7 @@
 <?php
 class Database {
   private $host = "localhost";
-  private $db_name = "alten";
+  private $db_name = "pff";
   private $username = "root";
   private $password = "";
   public $conn;
@@ -17,4 +17,5 @@ class Database {
     }
     return $this->conn;
   }
-
+}
+

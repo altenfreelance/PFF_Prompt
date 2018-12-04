@@ -47,7 +47,10 @@
   <script src="./js/ajaxGetTable.js"></script>
 
   <script>
+
    $(document).ready(function() {
+    getTable();
+
     $('#QBSelector').on('change', function(e){
       getTable();
     });

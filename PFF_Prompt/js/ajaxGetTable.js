@@ -1,5 +1,7 @@
 // Function to make AJAX request and populate table
 function getTable(){
+  //I tried to implement data table before but for some reason could not get the cdn js file to work 
+  //so I went with a normal bootstrap table
   $("#statsTable").DataTable(
     {
       "paging": false,
@@ -65,6 +67,7 @@ function CalculatePasserRating(attempts, completions, yards, touchdowns, interce
   return passer_rating.toFixed(1);
 };
 
+//I forgot to add in this logic after I had already written down the comment
 function ratingAdj(val) {
   if (val < 0) return 0;
   if (val > 2.375) return 2.375;
